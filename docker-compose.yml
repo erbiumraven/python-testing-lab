@@ -1,0 +1,25 @@
+services:
+  local-server:
+    image: openjdk:21-slim
+    container_name: petstore-local-server
+    working_dir: /app
+    volumes:
+      - ./server/pethttpserver.jar:/app/pethttpserver.jar
+    entrypoint: ["java", "-jar", "/app/pethttpserver.jar"]
+    profiles: ["local"]
+
+  tests:
+    build: .
+    container_name: petstore-tests
+    environment:
+      - PET_BASE_URL=${PET_BASE_URL:-http://local-server:8080/api/v3}
+    volumes:
+      - ./allure-results:/app/allure-results
+      - ./allure-report:/app/allure-report
+    profiles: ["tests"]
+    command: >
+      bash -c "
+        rm -rf /app/allure-results/* /app/allure-report/*;
+        pytest;
+        allure generate allure-results -o allure-report --clean
+      "
