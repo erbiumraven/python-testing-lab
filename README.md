@@ -65,6 +65,59 @@ pytest
 ./run_test.sh local
 ```
 
+### 5. Run tests by filter
+Each test class is designed to validate a specific API endpoint. To facilitate selective execution, custom pytest markers are applied to each class, enabling tests to be filtered and executed according to the targeted endpoint.
+```text
+    pet_create: Tests for POST /pet
+    pet_delete: Tests for DELETE /pet/{petId}
+    pet_get: Tests for GET /pet/{petId}
+    pet_status: Tests for GET /pet/findByStatus
+    pet_tags: Tests for GET /pet/findByTags
+    pet_update: Tests for PUT /pet
+    pet_update_form_data: Tests for POST /pet/{petId}
+    pet_upload_image: Tests for POST /pet/{petId}/uploadImage
+```
+
+To execute only tests for a specific endpoint, use the `-m` option with pytest:
+
+```bash
+# Run all tests for POST /pet
+pytest -m pet_create
+
+# Run all tests for DELETE /pet/{petId}
+pytest -m pet_delete
+
+# Run tests for multiple endpoints (logical OR)
+pytest -m "pet_create or pet_update"
+
+# Run tests for all endpoints except a specific one (logical NOT)
+pytest -m "not pet_upload_image"
+```
+
+In addition to using markers, pytest allows you to run tests selectively by specifying the **class name** or **method name**.
+
+```bash
+# Run a specific test method in any class
+pytest -k test_create_pet_success
+
+# Run a specific test method in a specific class
+pytest -k "TestCreatePet and test_create_pet_success"
+
+# Run multiple test methods across classes
+pytest -k "test_create_pet_success or test_create_pet_missing_name"
+
+# Run methods matching multiple conditions in a single class
+pytest -k "TestCreatePet and (test_create_pet_success or test_create_pet_validation_error)"
+
+# or
+
+# To run all the tests within a specific test class, you use the following syntax:
+pytest tests/api/test_create_pet.py::TestCreatePet
+
+# To run a single test method within a class, you extend the previous syntax to include the method name:
+pytest tests/api/test_create_pet.py::TestCreatePet::test_create_pet_with_missing_name
+```
+
 ## Allure report
 ```bash
 allure generate allure-results -o allure-report --clean
