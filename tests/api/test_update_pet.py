@@ -1,14 +1,19 @@
 import allure
+import pytest
+
 from fixtures.pet_fixtures import test_pet
-from helpers.api_helper import put_with_allure, get_with_allure
+
+from helpers.api_helper import get_with_allure, put_with_allure
+
 from helpers.assertion_helper import (
-    assert_pet_response_matches_expected,
-    assert_pet_not_found
+    assert_pet_not_found,
+    assert_pet_response_matches_expected
 )
 
 
 @allure.feature("Pet API")
 @allure.story("Update Pet")
+@pytest.mark.pet_update
 class TestUpdatePet:
 
     @allure.description("Update existing pet with new data and verify changes")

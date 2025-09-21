@@ -1,17 +1,21 @@
 import allure
+import pytest
+
+from fixtures.pet_fixtures import test_pet
 
 from helpers.api_helper import get_with_allure
-from fixtures.pet_fixtures import test_pet
+
 from helpers.assertion_helper import (
-    assert_pet_response_matches_expected,
-    assert_pet_not_found,
+    assert_invalid_pet_id_format,
     assert_method_not_allowed,
-    assert_invalid_pet_id_format
+    assert_pet_not_found,
+    assert_pet_response_matches_expected
 )
 
 
 @allure.feature("Pet API")
 @allure.story("Get Pet by ID")
+@pytest.mark.pet_get
 class TestGetPetById:
 
     @allure.description("Get pet by valid ID returns 200 and correct pet data.")

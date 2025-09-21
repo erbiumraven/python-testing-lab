@@ -1,15 +1,26 @@
 import allure
-from helpers.api_helper import post_with_allure
-from helpers.assertion_helper import (
-    assert_pet_response_matches_expected,
-    assert_pet_creation_failed_bad_request
+import pytest
+
+from fixtures.pet_fixtures import (
+    test_pet,
+    pet_required_fields_only,
+    invalid_missing_name,
+    invalid_missing_photos,
+    invalid_empty_name,
+    invalid_photourls_string
 )
-from fixtures.pet_fixtures import test_pet, pet_required_fields_only, invalid_missing_name, invalid_missing_photos, \
-    invalid_empty_name, invalid_photourls_string
+
+from helpers.api_helper import post_with_allure
+
+from helpers.assertion_helper import (
+    assert_pet_creation_failed_bad_request,
+    assert_pet_response_matches_expected
+)
 
 
 @allure.feature("Pet API")
 @allure.story("Create Pet")
+@pytest.mark.pet_create
 class TestCreatePet:
 
     @allure.description("Verify that a pet with all fields is successfully created.")

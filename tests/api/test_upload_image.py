@@ -1,26 +1,26 @@
 import allure
 import pytest
 
-from fixtures.pet_fixtures import (
-    test_pet,
-    temp_data_file
-)
+from fixtures.pet_fixtures import test_pet, temp_data_file
+
 from helpers.api_helper import (
     build_pet_upload_file_url,
-    upload_post_with_allure,
-    post_with_allure
+    post_with_allure,
+    upload_post_with_allure
 )
+
 from helpers.assertion_helper import (
     assert_file_successfully_uploaded,
-    assert_upload_failed_no_file,
-    assert_upload_failed_unsupported_content_type,
     assert_pet_not_found,
-    assert_upload_failed_convert_id_error
+    assert_upload_failed_convert_id_error,
+    assert_upload_failed_no_file,
+    assert_upload_failed_unsupported_content_type
 )
 
 
 @allure.feature("Pet API")
 @allure.story("Upload image")
+@pytest.mark.pet_upload_image
 class TestUploadImage:
 
     @pytest.mark.parametrize("metadata", [

@@ -23,6 +23,28 @@ def assert_pet_response_matches_expected(response, valid_pet_full):
         assert actual_pet == expected_pet, "Response body does not match expected pet"
 
 
+def assert_updated_pet_matches_expected(response, expected_pet_data, params):
+    with allure.step("Assert pet updated successfully"):
+        assert response.ok, f"Expected 200, got {response.status}"
+
+        expected_data = {**expected_pet_data, **params}
+        for key in ["name", "status"]:
+            if key in params:
+                expected_data[key] = params[key]
+            else:
+                expected_data.pop(key, None)
+
+        expected_pet = Pet(**expected_data)
+        actual_pet = Pet(**response.json())
+
+        allure.attach(json.dumps(response.json(), indent=2), name="Actual Pet",
+                      attachment_type=allure.attachment_type.JSON)
+        allure.attach(json.dumps(expected_data, indent=2), name="Expected Pet",
+                      attachment_type=allure.attachment_type.JSON)
+
+        assert actual_pet == expected_pet, "Response body does not match expected pet"
+
+
 def assert_pet_creation_failed_bad_request(response):
     with allure.step("Assert pet creation failed bad request"):
         assert response.status_code == 400, f"Expected 400, got {response.status_code}"
@@ -206,3 +228,10 @@ def assert_upload_failed_convert_id_error(response, pet_id):
         assert response.status_code == 400, f"Expected status 400, got {response.status_code}"
         assert expected_text.lower() in response.text.strip().lower(), \
             f"Expected '{expected_text}' to be in response, got '{response.text.strip()}'"
+
+def assert_update_pet_missing_name_param_fails(response):
+    expected_text = "No Name provided. Try again?"
+    with allure.step("Verify pet update failed due to missing name param (400)"):
+        assert response.status == 400, f"Expected status 400, got {response.status}"
+        assert expected_text.lower() in response.text().lower(),  \
+            f"Expected '{expected_text}' to be in response, got '{response.text()}'"

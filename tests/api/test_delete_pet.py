@@ -1,19 +1,23 @@
 import allure
+import pytest
+
+from fixtures.pet_fixtures import test_pet
 
 from helpers.api_helper import (
-    delete_with_allure,
-    get_with_allure
+    get_with_allure,
+    delete_with_allure
 )
-from fixtures.pet_fixtures import test_pet
+
 from helpers.assertion_helper import (
     assert_pet_deleted,
-    assert_pet_not_found,
-    assert_pet_invalid_pet_id_format
+    assert_pet_invalid_pet_id_format,
+    assert_pet_not_found
 )
 
 
 @allure.feature("Pet API")
 @allure.story("Delete Pet")
+@pytest.mark.pet_delete
 class TestDeletePet:
 
     @allure.description("Verify that pet successfully deleted.")

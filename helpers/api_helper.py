@@ -94,3 +94,27 @@ def build_pet_upload_file_url(pet_url: str, pet_id: str = None, metadata: str = 
     if metadata is not None:
         url += f"?additionalMetadata={metadata}"
     return url
+
+
+def playwright_post_with_allure(api_request_context, pet_id, params):
+    with allure.step("POST /api/v3/pet"):
+        response = api_request_context.post(f"{pet_id}", params=params)
+
+        try:
+            body = response.json()
+        except Exception:
+            body = response.text()
+
+        response_info = {
+            "url": response.url,
+            "status_code": response.status,
+            "headers": dict(response.headers),
+            "body": body
+        }
+        allure.attach(
+            json.dumps(response_info, indent=2),
+            name="Response",
+            attachment_type=allure.attachment_type.JSON
+        )
+
+        return response

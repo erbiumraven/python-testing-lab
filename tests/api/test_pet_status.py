@@ -1,15 +1,23 @@
 import allure
-from fixtures.pet_fixtures import pet_with_status, all_statuses_pets
+import pytest
+
+from fixtures.pet_fixtures import (
+    all_statuses_pets,
+    pet_with_status
+)
+
 from helpers.api_helper import get_with_allure
+
 from helpers.assertion_helper import (
-    assert_pets_status_success,
     assert_find_pet_invalid_status,
-    assert_find_pet_no_status_param
+    assert_find_pet_no_status_param,
+    assert_pets_status_success
 )
 
 
 @allure.feature("Pet API")
 @allure.story("Get Pet by Status")
+@pytest.mark.pet_status
 class TestFindPetByStatus:
 
     @allure.description("Find pets by a single valid status returns matching pets.")

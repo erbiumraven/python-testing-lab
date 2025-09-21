@@ -1,16 +1,24 @@
 import allure
-from fixtures.pet_fixtures import all_tags_pets, test_pet
+import pytest
+
+from fixtures.pet_fixtures import (
+    all_tags_pets,
+    test_pet
+)
+
 from helpers.api_helper import get_with_allure
+
 from helpers.assertion_helper import (
-    assert_pet_tags_success,
+    assert_error_occurred_for_empty_tag,
     assert_find_pet_no_tags_param,
-    assert_return_empty_list_for_nonexistent_tags,
-    assert_error_occurred_for_empty_tag
+    assert_pet_tags_success,
+    assert_return_empty_list_for_nonexistent_tags
 )
 
 
 @allure.feature("Pet API")
 @allure.story("Get Pet by Tags")
+@pytest.mark.pet_tags
 class TestFindPetByTag:
 
     @allure.description("Find pets by multiple tags returns all matching pets.")
