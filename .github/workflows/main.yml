@@ -48,6 +48,7 @@ jobs:
         with:
           name: allure-history
           path: allure-history || true
+        continue-on-error: true  
 
       - name: Run tests
         run: |
