@@ -1,0 +1,33 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sun, 28 Sep 2025 12:46:47 GMT",
+    "Content-Type": "application/json",
+    "Content-Length": "245",
+    "Connection": "keep-alive",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET, POST, DELETE, PUT",
+    "Access-Control-Allow-Headers": "Content-Type, api_key, Authorization",
+    "Access-Control-Expose-Headers": "Content-Disposition",
+    "Server": "Jetty(9.4.53.v20231009)"
+  },
+  "body": {
+    "id": 396374,
+    "category": {
+      "id": 1,
+      "name": "Dogs"
+    },
+    "name": "Hardy",
+    "photoUrls": [
+      "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/",
+      "/tmp/inflector12656574043902813646.tmp"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  }
+}
