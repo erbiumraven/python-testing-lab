@@ -1,0 +1,15 @@
+{
+  "status_code": 400,
+  "headers": {
+    "Date": "Sun, 28 Sep 2025 12:50:31 GMT",
+    "Content-Type": "application/json",
+    "Content-Length": "16",
+    "Connection": "keep-alive",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET, POST, DELETE, PUT",
+    "Access-Control-Allow-Headers": "Content-Type, api_key, Authorization",
+    "Access-Control-Expose-Headers": "Content-Disposition",
+    "Server": "Jetty(9.4.53.v20231009)"
+  },
+  "body": "No file uploaded"
+}

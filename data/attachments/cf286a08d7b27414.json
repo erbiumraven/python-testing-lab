@@ -1,0 +1,33 @@
+{
+  "url": "https://petstore3.swagger.io/api/v3/pet/720386?name=&status=sold",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 28 Sep 2025 12:50:32 GMT",
+    "content-type": "application/json",
+    "content-length": "194",
+    "connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET, POST, DELETE, PUT",
+    "access-control-allow-headers": "Content-Type, api_key, Authorization",
+    "access-control-expose-headers": "Content-Disposition",
+    "server": "Jetty(9.4.53.v20231009)"
+  },
+  "body": {
+    "id": 720386,
+    "category": {
+      "id": 1,
+      "name": "Dogs"
+    },
+    "name": "",
+    "photoUrls": [
+      "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "sold"
+  }
+}
