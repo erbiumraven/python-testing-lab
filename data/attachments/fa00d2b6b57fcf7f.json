@@ -1,0 +1,25 @@
+{
+  "headers": {
+    "User-Agent": "python-requests/2.32.5",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "application/json",
+    "Connection": "keep-alive",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "id": 383138,
+    "name": "Hardy",
+    "category": {
+      "id": 1,
+      "name": "Dogs"
+    },
+    "photoUrls": "string",
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  }
+}

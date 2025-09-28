@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "User-Agent": "python-requests/2.32.5",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "application/json",
+    "Connection": "keep-alive",
+    "Content-Type": "application/json"
+  },
+  "body": {
+    "id": 160349,
+    "name": "Hardy",
+    "category": {
+      "id": 1,
+      "name": "Dogs"
+    },
+    "photoUrls": [
+      "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  }
+}

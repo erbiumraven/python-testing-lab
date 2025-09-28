@@ -1,0 +1,16 @@
+{
+  "url": "https://petstore3.swagger.io/api/v3/pet/998279?name=Hoxha&status=sold",
+  "status_code": 404,
+  "headers": {
+    "date": "Sun, 28 Sep 2025 12:41:25 GMT",
+    "content-type": "application/json",
+    "content-length": "13",
+    "connection": "keep-alive",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET, POST, DELETE, PUT",
+    "access-control-allow-headers": "Content-Type, api_key, Authorization",
+    "access-control-expose-headers": "Content-Disposition",
+    "server": "Jetty(9.4.53.v20231009)"
+  },
+  "body": "Pet not found"
+}

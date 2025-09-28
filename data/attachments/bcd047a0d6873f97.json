@@ -1,0 +1,18 @@
+{
+  "id": 596998,
+  "category": {
+    "id": 1,
+    "name": "Dogs"
+  },
+  "name": "Hoxha_updated",
+  "photoUrls": [
+    "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": ""
+}

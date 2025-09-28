@@ -1,0 +1,138 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sun, 28 Sep 2025 12:41:24 GMT",
+    "Content-Type": "application/json",
+    "Content-Length": "1245",
+    "Connection": "keep-alive",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET, POST, DELETE, PUT",
+    "Access-Control-Allow-Headers": "Content-Type, api_key, Authorization",
+    "Access-Control-Expose-Headers": "Content-Disposition",
+    "Server": "Jetty(9.4.53.v20231009)"
+  },
+  "body": [
+    {
+      "id": 5,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Dog 2",
+      "photoUrls": [
+        "url1",
+        "url2"
+      ],
+      "tags": [
+        {
+          "id": 1,
+          "name": "tag2"
+        },
+        {
+          "id": 2,
+          "name": "tag3"
+        }
+      ],
+      "status": "sold"
+    },
+    {
+      "id": 232029,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "sold"
+    },
+    {
+      "id": 504381,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "sold"
+    },
+    {
+      "id": 191919,
+      "name": "",
+      "photoUrls": [
+        "http://example.com/photo1"
+      ],
+      "tags": [],
+      "status": "sold"
+    },
+    {
+      "id": 940673,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "sold"
+    },
+    {
+      "id": 426051,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hoxha",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "sold"
+    },
+    {
+      "id": 561010,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "sold"
+    }
+  ]
+}

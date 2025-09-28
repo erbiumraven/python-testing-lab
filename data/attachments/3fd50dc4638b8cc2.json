@@ -1,0 +1,1548 @@
+{
+  "status_code": 200,
+  "headers": {
+    "Date": "Sun, 28 Sep 2025 12:41:23 GMT",
+    "Content-Type": "application/json",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET, POST, DELETE, PUT",
+    "Access-Control-Allow-Headers": "Content-Type, api_key, Authorization",
+    "Access-Control-Expose-Headers": "Content-Disposition",
+    "Server": "Jetty(9.4.53.v20231009)"
+  },
+  "body": [
+    {
+      "id": 4,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Dog 1",
+      "photoUrls": [
+        "url1",
+        "url2"
+      ],
+      "tags": [
+        {
+          "id": 1,
+          "name": "tag1"
+        },
+        {
+          "id": 2,
+          "name": "tag2"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 7,
+      "category": {
+        "id": 4,
+        "name": "Lions"
+      },
+      "name": "Lion 1",
+      "photoUrls": [
+        "url1",
+        "url2"
+      ],
+      "tags": [
+        {
+          "id": 1,
+          "name": "tag1"
+        },
+        {
+          "id": 2,
+          "name": "tag2"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 8,
+      "category": {
+        "id": 4,
+        "name": "Lions"
+      },
+      "name": "Lion 2",
+      "photoUrls": [
+        "url1",
+        "url2"
+      ],
+      "tags": [
+        {
+          "id": 1,
+          "name": "tag2"
+        },
+        {
+          "id": 2,
+          "name": "tag3"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 761205,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 456051,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 353767,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 942691,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 718253,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 1,
+          "name": "tag2"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 152175,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 185068,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 974753,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 604978,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 950313,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 422913,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 817411,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 940556,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 972412,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 862946,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 1,
+          "name": "tag2"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 336198,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 791816,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 818584,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 692473,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 942513,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 1228,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "doggie",
+      "photoUrls": [
+        "string"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 5421,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "doggie",
+      "photoUrls": [
+        "string"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 45223,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "doggie",
+      "photoUrls": [
+        "string"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 998,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "doggie",
+      "photoUrls": [
+        "string"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 20,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "lion",
+      "photoUrls": [
+        "string"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 9,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "doggie",
+      "photoUrls": [
+        "string"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 1996,
+      "category": {
+        "id": 1996,
+        "name": "kavi"
+      },
+      "name": "kavi",
+      "photoUrls": [
+        "string",
+        "string"
+      ],
+      "tags": [
+        {
+          "id": 1997,
+          "name": "string"
+        },
+        {
+          "id": 1998,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 123456789,
+      "name": "Luna",
+      "photoUrls": [
+        "https://ejemplo.com/fotos/luna-1.jpg"
+      ],
+      "tags": [],
+      "status": "available"
+    },
+    {
+      "id": 20199,
+      "name": "Charlie",
+      "photoUrls": [
+        "http://example.com/photo1"
+      ],
+      "tags": [],
+      "status": "available"
+    },
+    {
+      "id": 1,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "doggie",
+      "photoUrls": [
+        "string"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": 1,
+        "name": "Cat"
+      },
+      "name": "doggie",
+      "photoUrls": [
+        "string"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 999,
+      "name": "test",
+      "photoUrls": [],
+      "tags": [],
+      "status": "available"
+    },
+    {
+      "id": 1287138758235,
+      "name": "Woofy Mc Woof",
+      "photoUrls": [],
+      "tags": [],
+      "status": "available"
+    },
+    {
+      "id": 677,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "doggie",
+      "photoUrls": [
+        "string"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 864,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Freddie",
+      "photoUrls": [
+        "string"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 487662,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 401647,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 403577,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "tag1"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 951058,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 2,
+          "name": "4_tag"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 276634,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 559101,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/",
+        "/tmp/inflector12965422455545136863.tmp"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 982472,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 693201,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/",
+        "/tmp/inflector4203842992679247137.tmp"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 762223,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 219891,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/",
+        "/tmp/inflector8272588868551295183.tmp"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 955341,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 395365,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/",
+        "/tmp/inflector5599460995255296166.tmp"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 402020,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 506696,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/",
+        "/tmp/inflector11433136214410730262.tmp"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 201036,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 681754,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/",
+        "/tmp/inflector5605161925416206009.tmp"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 771792,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 709534,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 252437,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 531468,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 544569,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 572145,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 1,
+          "name": "tag2"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 580871,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 722170,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 168628,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 669578,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 102469,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 273969,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 456043,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 167057,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "tag1"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 892670,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 2,
+          "name": "4_tag"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 204738,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 876480,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/",
+        "/tmp/inflector12429543824639449166.tmp"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 637180,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 633242,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/",
+        "/tmp/inflector7087606943630456835.tmp"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 614697,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 474322,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/",
+        "/tmp/inflector10282896520690653973.tmp"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 327529,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 489785,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/",
+        "/tmp/inflector4759242389988023406.tmp"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 843157,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 307987,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/",
+        "/tmp/inflector3078885483631685076.tmp"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 659462,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 815633,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/",
+        "/tmp/inflector2335985419062792940.tmp"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 954977,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 10,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "doggie",
+      "photoUrls": [
+        "string_example"
+      ],
+      "tags": [
+        {
+          "id": 1,
+          "name": "string_example"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 770724,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 750607,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 893121,
+      "category": {
+        "id": 1,
+        "name": "Dogs"
+      },
+      "name": "Hardy",
+      "photoUrls": [
+        "https://pixabay.com/photos/pomeranian-dog-puppy-mammal-animal-8096885/"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    }
+  ]
+}
